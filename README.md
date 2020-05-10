@@ -7,9 +7,9 @@ This repo is my solution for [Zillow's Home Value Prediction Competition](https:
 
 - `Zillow_Feature_Engineering.ipynb` performs feature engineeering, including detecting missing patterns, extracting datetime, aggregating based on regions, years, and so on. Data is saved as .csv format for later modeling.
 
-- `Zillow_Modeling_Catboost.ipynb` constructs CatBoost models on top of the dataset derived from the earlier feature engineering process.
+- `Zillow Modeling-Catboost.ipynb` constructs CatBoost models on top of the dataset derived from the earlier feature engineering process.
 
-- `Zillow_Modeling_LGB.ipynb` constructs LightGBM models on top of the dataset derived from the earlier feature engineering process. Hyperparameters are tuned via bayesian hyperparameter optimization appraoch. 
+- `Zillow Modeling-lgb.ipynb` constructs LightGBM models on top of the dataset derived from the earlier feature engineering process. Hyperparameters are tuned via bayesian hyperparameter optimization appraoch. 
 
 - `Stacking.ipynb` performs random stacking on top of the two results from Catboost and LightGBM models. 
 
