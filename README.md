@@ -27,3 +27,7 @@ The following table demonstrates the performance of the models on the hidden pri
 CatBoost, without tuning much parameter, showcases stroing performance, while LightGBM performs poor even if I perform some sort of parameter tuning. The performace on LightGBM model could have been improved if I worked on tuning hyperparameter more.
 
 In the meantime, stacking is one powerful method to combine the "opinion" from two models and thus climb up the leaderboard. With random weights assigned, it turns out that **0.7 on CatBoost and 0.3 on LightGBM gives the best Result**. 
+
+
+# Next Steps
+-[] Use cookiecutter Data Science Strucutre to re-construct this page
